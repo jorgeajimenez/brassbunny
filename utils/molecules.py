@@ -21,7 +21,7 @@ def generate_molecule_images(drug_name, drug_smiles, output_format='png', save_d
     img.save(os.path.join(save_dir, f'{drug_name}.{output_format}'))
 
 
-test_drug_name = 'lamotrigine'
-citalopram_smiles = get_smiles_from_name(test_drug_name)
-if citalopram_smiles is not None:
-    generate_molecule_images(test_drug_name, drug_smiles=citalopram_smiles)
+test_test_drug_name = 'phenobarbital'
+test_drug_smiles = get_smiles_from_name(test_test_drug_name)
+if test_drug_smiles is not None:
+    generate_molecule_images(test_test_drug_name, drug_smiles=test_drug_smiles)
