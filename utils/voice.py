@@ -4,7 +4,7 @@ url = "https://users.rime.ai/v1/rime-tts"
 
 payload = {
     "speaker": "Luna",
-    "text": "Citalopram can cause issues.",
+    "text": "The metabolism of Cholecalciferol can be decreased when combined with Ritonavir.",
     "modelId": "arcana",
     "repetition_penalty": 1.5,
     "temperature": 0.5,
